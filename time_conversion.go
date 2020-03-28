@@ -1,8 +1,8 @@
 package main
 
 import (
-	"os"
 	"fmt"
+	"os"
 	"strconv"
 )
 
@@ -26,7 +26,7 @@ func timeConversion(s string) string {
 	}
 
 	// ie 3PM
-	return fmt.Sprintf("%d%s", hour+12,s[2:len(s)-2])
+	return fmt.Sprintf("%d%s", hour+12, s[2:len(s)-2])
 }
 
 func main() {
